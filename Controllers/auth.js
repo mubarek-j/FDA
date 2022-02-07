@@ -2,6 +2,7 @@ const bcrypt = require("bcryptjs/dist/bcrypt");
 const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
 const pi = 3.141539;
+const e= 2.7;
 
 const db = mysql.createConnection({
   host: process.env.HOST,
